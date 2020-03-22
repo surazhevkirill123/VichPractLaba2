@@ -1,0 +1,29 @@
+2020-03-22 16:45:44,088 INFO b.b.p.C.Log4j2 [main] Huiii started.
+2020-03-22 16:45:44,093 WARN b.b.p.C.Log4j2 [main] Something to warn
+2020-03-22 16:45:44,093 ERROR b.b.p.C.Log4j2 [main] Something failed.
+2020-03-22 16:45:44,094 ERROR b.b.p.C.Log4j2 [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:374) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:425) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3271) ~[?:?]
+	at by.bsu.prj.Controller.Log4j2.main(Log4j2.java:20) [classes/:?]
+2020-03-22 17:05:38,214 INFO b.b.p.C.Log4j2 [main] Huiii started.
+2020-03-22 17:05:38,219 WARN b.b.p.C.Log4j2 [main] Something to warn
+2020-03-22 17:05:38,219 ERROR b.b.p.C.Log4j2 [main] Something failed.
+2020-03-22 17:05:38,220 ERROR b.b.p.C.Log4j2 [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:374) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:425) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3271) ~[?:?]
+	at by.bsu.prj.Controller.Log4j2.main(Log4j2.java:20) [classes/:?]
+2020-03-22 17:15:38,087 INFO b.b.p.C.Log4j2 [main] Im started.
+2020-03-22 17:15:38,092 WARN b.b.p.C.Log4j2 [main] Something to warn
+2020-03-22 17:15:38,093 ERROR b.b.p.C.Log4j2 [main] Something failed.
