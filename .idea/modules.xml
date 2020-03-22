@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/EPAM_Surazhev.iml" filepath="$PROJECT_DIR$/.idea/EPAM_Surazhev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Epam_Surazhev.iml" filepath="$PROJECT_DIR$/.idea/Epam_Surazhev.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab2 (loger+web)/WebApp.iml" filepath="$PROJECT_DIR$/lab2 (loger+web)/WebApp.iml" />
     </modules>
   </component>
